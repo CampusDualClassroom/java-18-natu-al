@@ -2,8 +2,6 @@ package com.campusdual.classroom;
 
 import com.campusdual.util.Utils;
 
-import java.util.Arrays;
-
 public class Exercise18 {
 
     public static void main(String[] args) {
