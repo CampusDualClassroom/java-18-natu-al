@@ -22,10 +22,11 @@ public class Exercise18 {
 
     public static void showInlineArray(int[] a) {
         for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
+            if(i != a.length -1)
+            System.out.print(a[i]  + " ");
+            else
+                System.out.print(a[i]);
         }
-
-        //     System.out.print(Arrays.toString(a) + " ");
     }
 }
 
