@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Utils {
 
-    private Utils(){}
+    public Utils(){}
 
     public static final Random random = new Random();
     public static final DecimalFormat dF = new DecimalFormat("#.##");
@@ -47,7 +47,6 @@ public class Utils {
         if (message != null) {
             System.out.print(message);
         }
-
         try{
             return Integer.parseInt(Utils.init());
         } catch (NumberFormatException e){
@@ -55,7 +54,6 @@ public class Utils {
             return integer(message);
         }
     }
-
 
     /**
      * Method to get a real number from input data.
